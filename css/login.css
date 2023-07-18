@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet !important;
+    padding-left: 30%;
+    /* padding-right: 25%; */
+}
+.container-padre{
+    color: white;
+    margin-top: 100px;
+    padding: 10%;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px gray;
+    animation-name: cambio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.container-padre h1{
+    text-align: center;
+}
+
+@keyframes cambio {
+    from {background-color: rgb(0, 0, 0);}
+    to {background-color: rgb(217, 217, 16);}
+}
